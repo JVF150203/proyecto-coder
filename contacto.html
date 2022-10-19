@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>proyecto</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <img src="img/logo.jpg" alt="logo de la tienda" />
+      </div>
+
+      <nav>
+        <ul class="nav-link">
+          <a href="inicio.html">INICIO</a>
+          <a href="tienda.html">TIENDA</a>
+          <a href="nosotros.html">NOSOTROS</a>
+          <a href="contacto.html">CONTACTO</a>
+          <a href="preguntas.html">PREGUNTAS FRECUENTES</a>
+        </ul>
+      </nav>
+      <a href="#" class="btn"><button>carrito</button></a>
+    </header>
+    
+    <section class="contact">
+    <div class="container-form">
+      <div class="info-form">
+        <h2>Contactanos</h2> 
+
+      <form action="">
+        <div>
+          <label for="nombre-usuario">Nombre y apellido</label>
+          <input type="text" id="nombre-usuario" name="nombre-usuario" />
+        </div>
+
+        <div>
+          <label for="email-usuario">Ingrese su email</label>
+          <input type="email" id="email-usuario" />
+        </div>
+
+        <div>
+          <label for="telefono">telefono</label>
+          <input type="tel" id="telefono" />
+        </div>
+
+        <div>
+          <label for="asuntos">Asuntos</label>
+          <select id="asuntos">
+            <option value="">Reclamo</option>
+            <option value="">Finanzas</option>
+            <option value="">Devolucion</option>
+            <option value="">Otros</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="mensaje">Ingrese su mensaje</label>
+          <textarea cols="30" raws="10" id="mensaje"></textarea>
+        </div>
+
+        <div>
+          <input type="submit" value="Enviar" />
+          <input type="reset" valve="Limpiar" />
+        </div>
+      </form>
+    </div>
+  </section>
+  <footer>
+    <h1 class="color-pie">proximamente</h1>
+  </footer>
+  </body>
+</html>
